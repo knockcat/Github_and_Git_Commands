@@ -1,0 +1,10 @@
+//Cloning git repository
+
+//Copy url from an github repository
+
+1: git clone https://github.com/knockcat/C-Programming.git         //clone repository
+
+//If we want to give our own name to a repository
+
+2: git clone https://github.com/knockcat/Algorithms.git name       //clone repository and giving a name
+
