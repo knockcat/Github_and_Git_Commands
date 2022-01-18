@@ -1,0 +1,21 @@
+//.gitignore , git diff and skipping staging area
+
+//file name which we add in .gitignore  , that file  changes will not affect git status beacuse we had ignored that file.
+
+1: touch .gitignore                                                 //for ignoring particular file changes
+
+2: *.log                                                            //will ignore all .log files, if written in .gitignore
+
+3. foldername/                                                      //to ignore folder and its files in .gitignore
+
+4. git diff                                                         //compare staging area with working directory
+
+5. git diff  file_name                                              //compare staging area with working directory
+
+5. git diff --staged                                                //compare staging area with previous commit
+
+7. git diff --staged a.txt                                          //checking changes of staged file or //compare staging area with previous commit
+
+6. git commit -a -m "message"                                       //for skiping staging area (Direct commit)
+
+//only staged files will go into commit , but the untrackerd files will not go into commit, we have to specifically stage that file first.
