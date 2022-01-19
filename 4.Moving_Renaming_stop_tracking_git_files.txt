@@ -1,0 +1,8 @@
+//Moving , Renaming & stop tracking file
+
+1: git rm filename                 //remove a file
+
+2: git mv filename newfilenme      //rename a file
+
+3: git rm --cached filename         //for stop tracking a particular file   //we have to remove it from tracking system of git ,as it is tracking earlier
+
