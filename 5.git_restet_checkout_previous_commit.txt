@@ -1,0 +1,9 @@
+//  git reset , unstage & checkout
+
+1:  git reset p.txt     //unstage file
+
+2:  git chekout p.txt   //to previous commit
+
+3:  git checkout .      //to previous commit all files
+
+4.  git reset head~1    //roolback to last commit
