@@ -1,0 +1,27 @@
+//  git log commands
+
+1.  git log -p                                                       //show commit with difference also (what has changed)
+
+2.  git log -3                                                       //show only 3 commit 
+
+3.  git log -p -3                                                    //show 3 commit with diff
+
+4.  git log --status                                                 //show small summary of commits
+
+5.  git log --pretty=oneline                                         //show all commits in one line
+
+6.  git log --pretty=short                                           //show commit in short
+
+7.  git log --pretty=full                                            //show more information of commits
+
+//  merge commit
+8.  git commit --amend                                               //to change commit message    //an vim editor will open
+
+//  filter commits
+9.  git log --since=3.days                                           //show commit of last 3 days
+    git log --since=3.weeks                                          //weeks  
+    git log --since=2.years                                          //years                
+
+10. git log --pretty=format:"%h -- %an"                              //abbreviate hash commit    //author name     [ H is hash commit and h is abbreviate hash commit (means in short) ]
+
+11. git log --pretty=format:"%h -- %ae"                              //abbreviate hash commit    //author name     [ H is hash commit and h is abbreviate hash commit (means in short) ]
