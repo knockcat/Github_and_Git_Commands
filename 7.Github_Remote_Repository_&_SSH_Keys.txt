@@ -1,0 +1,35 @@
+//  Working with Remote repository
+
+//  make a new repository in your github portal                           //I made git-demo (eg)
+
+//  make ssh key
+
+    ssh-keygen -t rsa -b 4096 -C "example@example.com"
+    eval $(ssh-agent -s)
+    ssh-add ~/.ssh/id_rsa
+    clip < ~/.ssh/id_rsa.pub
+
+//  then paste the ssh key generated to ssh keys in your github settings.
+
+
+
+1:  git remote add origin https://github.com/knockcat/git-demo.git          //make remote
+
+2:  git remote                                                              //this command will show you your remote repository
+
+3:  git remote -v                                                           //commmad show push and pull source
+
+    //output
+    origin  https://github.com/knockcat/git-demo.git (fetch)
+    origin  https://github.com/knockcat/git-demo.git (push)
+
+4:  git push -u origin master                                               //push all the files to your github repository
+
+5:  git remote remove origin						    //for removing remote origin
+
+6:  //error
+    To github.com:knockcat/Leetcode.git
+    ! [rejected]        master -> master (fetch first)
+    error: failed to push some refs to 'github.com:knockcat/Leetcode.git'
+
+    git pull origin                                     //first pull then push
