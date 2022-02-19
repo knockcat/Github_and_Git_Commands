@@ -1,0 +1,11 @@
+//  Unstaging and unmodifying file
+
+1:  git restore file_name                               //restore a file / unmodify the file and match with previous commit 
+
+2.  git checkout -- filename                            //match it with previous commmit
+
+2:  git restore --staged file_name                      //unstage a file from staging area
+
+4.  git checkout -f                                     //come to previous commit
+
+5. git reset HEAD~					// remove last commit from local
