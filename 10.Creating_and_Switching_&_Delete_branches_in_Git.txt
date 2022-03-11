@@ -1,0 +1,27 @@
+//  Creating Switching ,Merging branches and Delete branches in Git
+
+1:  git checkout -b develop                     //make new branch develop
+
+2:  git checkout master                         //switch to master
+
+3:  git branch                                  //show all branches
+
+4:  git merge Branch_Name                       //merge changes branches
+
+<<<< conflict resolution markers >>>>
+
+5:  git branch --merged                         //show branches which we have already merged
+
+6:  git branch --no-merged                      //not already merge branches
+
+//  give warning if Branch_Name is not merged
+7:  git branch -d Branch_Name                   //delete branch gives error/warning if not merged
+
+8:  git branch -D Branch_Name                   //delete branch no warning/error
+
+9:  git merge --abort                           //to abort the merge
+
+10: git branch -v                               //branch, last commit and its last message
+
+11: git diff branch1..branch2                   //Compare two branches
+
