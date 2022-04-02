@@ -1,0 +1,12 @@
+//  publish branch remotely on git
+
+1:  git push origin Branch_Name                         //push branch on github repository
+
+//  in which branch we want to push we have to be at that branch only
+
+2:  git push origin bugfix:mybugfix                     //push new branch as mybugfix.
+                                                        //which is bugfix here but make mybugfix in remote
+                                                        //but we should push as same branch in remote which we have
+                                                        //the branches we have here, are to be in remote
+
+3:  git push -d origin Branch_Name                      //delete branch from remote
